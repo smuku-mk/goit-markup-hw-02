@@ -74,16 +74,33 @@ body {
   line-height: 1.1428;
 }
 
+/* buttons */
 .button {
   cursor: pointer;
   border-radius: 4px;
 }
-
+.button-main {
+  background: #2196f3;
+}
+.button-main-text {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+}
 .buttons-portfolio {
   background: #f5f4fa;
 }
-
 .buttons-portfolio:focus,
 .buttons-portfolio:hover {
   background: #2196f3;
+}
+.buttons-portfolio-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+}
+.buttons-portfolio-text:focus,
+.buttons-portfolio-text:hover {
+  color: #FFFFFF;
 }
