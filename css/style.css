@@ -1,9 +1,9 @@
 :root {
-  --brand-color: #212121;
+  --brand-color: #2196f3;
 }
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--brand-color);
+  color: #212121;
 }
 
 /* logo */
@@ -22,23 +22,22 @@ body {
   line-height: 1.19;
 }
 .logo-web {
-  color: #2196f3;
+  color: var(--brand-color)
 }
 
 /* nav */
 .nav-links {
   text-decoration: none;
-  color: var(--brand-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
 }
 .nav-links:focus,
 .nav-links:hover {
-  color: #2196f3;
+  color: var(--brand-color)
 }
 .nav-portfolio {
-  color: #2196f3;
+  color: var(--brand-color)
 }
 
 /* contacts */
@@ -51,7 +50,7 @@ body {
 }
 .contacts-header:focus,
 .contacts-header:hover {
-  color: #2196f3;
+  color: var(--brand-color)
 }
 .contacts-footer {
   text-decoration: none;
@@ -62,7 +61,7 @@ body {
 }
 .contacts-footer:focus,
 .contacts-footer:hover {
-  color: #2196f3;
+  color: var(--brand-color)
 }
 .contacts-footer-mail {
   text-decoration: underline;
@@ -80,7 +79,7 @@ body {
   border-radius: 4px;
 }
 .button-main {
-  background: #2196f3;
+  background: var(--brand-color)
 }
 .button-main-text {
   color: #ffffff;
@@ -93,7 +92,7 @@ body {
 }
 .buttons-portfolio:focus,
 .buttons-portfolio:hover {
-  background: #2196f3;
+  background: var(--brand-color)
 }
 .buttons-portfolio-text {
   font-weight: 500;
