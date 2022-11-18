@@ -1,5 +1,7 @@
 :root {
   --brand-color: #2196f3;
+  --white-color: #ffffff;
+  --text-color: #757575;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -17,12 +19,12 @@ body {
 .logo-footer {
   font-family: "Raleway", sans-serif;
   text-decoration: none;
-  color: #ffffff;
+  color: var(--white-color);
   font-size: 26px;
   line-height: 1.19;
 }
 .logo-web {
-  color: var(--brand-color)
+  color: var(--brand-color);
 }
 
 /* nav */
@@ -34,23 +36,23 @@ body {
 }
 .nav-links:focus,
 .nav-links:hover {
-  color: var(--brand-color)
+  color: var(--brand-color);
 }
 .nav-portfolio {
-  color: var(--brand-color)
+  color: var(--brand-color);
 }
 
 /* contacts */
 .contacts-header {
   text-decoration: none;
-  color: #757575;
+  color: var(--text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
 }
 .contacts-header:focus,
 .contacts-header:hover {
-  color: var(--brand-color)
+  color: var(--brand-color);
 }
 .contacts-footer {
   text-decoration: none;
@@ -61,13 +63,13 @@ body {
 }
 .contacts-footer:focus,
 .contacts-footer:hover {
-  color: var(--brand-color)
+  color: var(--brand-color);
 }
 .contacts-footer-mail {
   text-decoration: underline;
 }
 .address {
-  color: #ffffff;
+  color: var(--white-color);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.14;
@@ -79,10 +81,10 @@ body {
   border-radius: 4px;
 }
 .button-main {
-  background: var(--brand-color)
+  background: var(--brand-color);
 }
 .button-main-text {
-  color: #ffffff;
+  color: var(--white-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -92,7 +94,7 @@ body {
 }
 .buttons-portfolio:focus,
 .buttons-portfolio:hover {
-  background: var(--brand-color)
+  background: var(--brand-color);
 }
 .buttons-portfolio-text {
   font-weight: 500;
@@ -101,12 +103,12 @@ body {
 }
 .buttons-portfolio-text:focus,
 .buttons-portfolio-text:hover {
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 /* hero */
 .hero-text {
-  color: #ffffff;
+  color: var(--white-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -119,7 +121,7 @@ body {
   line-height: 1.14;
 }
 .lorem-ipsum-text {
-  color: #757575;
+  color: var(--text-color);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -137,7 +139,7 @@ body {
   line-height: 1.19;
 }
 .team-job {
-  color: #757575;
+  color: var(--text-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
@@ -150,7 +152,7 @@ body {
   line-height: 2;
 }
 .pictures-text {
-  color: #757575;
+  color: var(--text-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
