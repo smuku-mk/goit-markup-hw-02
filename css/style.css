@@ -33,11 +33,45 @@ body {
   font-size: 14px;
   line-height: 1.1428;
 }
-.nav-links:focus, .nav-links:hover {
+.nav-links:focus,
+.nav-links:hover {
   color: #2196f3;
 }
 .nav-portfolio {
   color: #2196f3;
+}
+
+/* contacts */
+.contacts-header {
+  text-decoration: none;
+  color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1428;
+}
+.contacts-header:focus,
+.contacts-header:hover {
+  color: #2196f3;
+}
+.contacts-footer {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7142;
+}
+.contacts-footer:focus,
+.contacts-footer:hover {
+  color: #2196f3;
+}
+.contacts-footer-mail {
+  text-decoration: underline;
+}
+.address {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.1428;
 }
 
 .button {
@@ -53,5 +87,3 @@ body {
 .buttons-portfolio:hover {
   background: #2196f3;
 }
-
-
