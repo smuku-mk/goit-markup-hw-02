@@ -1,7 +1,57 @@
+:root {
+  --brand-color: #212121;
+}
 body {
   font-family: "Roboto", sans-serif;
+  color: var(--brand-color);
 }
 
-.logo {
+/* logo */
+.logo-header {
   font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  color: #000000;
+  font-size: 26px;
+  line-height: 1.1923;
 }
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 26px;
+  line-height: 1.1923;
+}
+.logo-web {
+  color: #2196f3;
+}
+
+/* nav */
+.nav-links {
+  text-decoration: none;
+  color: var(--brand-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1428;
+}
+.nav-links:focus, .nav-links:hover {
+  color: #2196f3;
+}
+.nav-portfolio {
+  color: #2196f3;
+}
+
+.button {
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.buttons-portfolio {
+  background: #f5f4fa;
+}
+
+.buttons-portfolio:focus,
+.buttons-portfolio:hover {
+  background: #2196f3;
+}
+
+
