@@ -73,41 +73,34 @@ body {
 .contacts-footer-mail {
   text-decoration: underline;
 }
-.address {
+.company-address {
   color: var(--white-color);
   font-size: 14px;
   line-height: 1.14;
 }
 
 /* buttons */
-.button {
+.all-buttons {
   cursor: pointer;
   border-radius: 4px;
 }
 .button-main {
-  background: var(--brand-color);
-}
-.button-main-text {
   color: var(--white-color);
+  background: var(--brand-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
 }
 .buttons-portfolio {
   background: var(--background-portfolio-buttons-color);
-}
-.buttons-portfolio:focus,
-.buttons-portfolio:hover {
-  background: var(--brand-color);
-}
-.buttons-portfolio-text {
   color: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
 }
-.buttons-portfolio-text:focus,
-.buttons-portfolio-text:hover {
+.buttons-portfolio:focus,
+.buttons-portfolio:hover {
+  background: var(--brand-color);
   color: var(--white-color);
 }
 
