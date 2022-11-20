@@ -2,17 +2,21 @@
   --brand-color: #2196f3;
   --white-color: #ffffff;
   --text-color: #757575;
+  --body-color: #212121;
+  --black-color: #000000;
+  --background-portfolio-buttons-color: #f5f4fa;
+  --contacts-footer-color: rgba(255, 255, 255, 0.6);
 }
 body {
   font-family: "Roboto", sans-serif;
-  color: #212121;
+  color: var(--body-color);
 }
 
 /* logo */
 .logo-header {
   font-family: "Raleway", sans-serif;
   text-decoration: none;
-  color: #000000;
+  color: var(--black-color);
   font-size: 26px;
   line-height: 1.19;
 }
@@ -30,6 +34,7 @@ body {
 /* nav */
 .nav-links {
   text-decoration: none;
+  color: inherit;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -56,7 +61,7 @@ body {
 }
 .contacts-footer {
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--contacts-footer-color);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -89,13 +94,14 @@ body {
   line-height: 1.88;
 }
 .buttons-portfolio {
-  background: #f5f4fa;
+  background: var(--background-portfolio-buttons-color);
 }
 .buttons-portfolio:focus,
 .buttons-portfolio:hover {
   background: var(--brand-color);
 }
 .buttons-portfolio-text {
+  color: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
@@ -115,6 +121,7 @@ body {
 
 /* lorem ipsum */
 .lorem-ipsum-title {
+  color: inherit;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -127,11 +134,13 @@ body {
 
 /* section our team and what we do */
 .sections-titles {
+  color: inherit;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
 }
 .team-names {
+  color: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -144,6 +153,7 @@ body {
 
 /* pictures-section */
 .pictures-titles {
+  color: inherit;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
