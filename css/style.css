@@ -70,7 +70,6 @@ body {
 }
 .address {
   color: var(--white-color);
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.14;
 }
@@ -122,7 +121,6 @@ body {
 }
 .lorem-ipsum-text {
   color: var(--text-color);
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -140,7 +138,6 @@ body {
 }
 .team-job {
   color: var(--text-color);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
 }
@@ -153,7 +150,6 @@ body {
 }
 .pictures-text {
   color: var(--text-color);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
 }
